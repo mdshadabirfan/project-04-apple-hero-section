@@ -1,0 +1,106 @@
+@font-face {
+    font-family: SFRegular;
+    src: url(./sf-pro-text_regular.woff2);
+}
+@font-face {
+    font-family: SFBold;
+    src: url(./sf-pro-display_bold.woff2);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: SFRegular;
+}
+body, html{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    color: #222;
+    position: relative;
+}
+
+/* Navbar */
+#navbar{
+    width: 100%;
+    height:7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    background-color: #ffffff;
+}
+#navbar a{
+    color:rgba(0, 0, 0, .9);
+    text-decoration: none;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    font-size: 12px;
+}
+#navbar i{
+    font-size: 17px;
+}
+#navbar .navlinks:hover{
+    color: #000000;
+}
+#banner{
+    background-image: url(./hero_iphone_family__fuz5j2v5xx6y_largetall_2x.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 93%;
+    width: 100%;
+    text-align: center;
+    padding-top: 45px;
+}
+#banner h1{
+    font-size: 56px;
+    font-weight: 600;
+    letter-spacing: -.002em;
+    line-height: 1.07143;
+    font-family: SFBold;
+    margin-bottom: 10px;
+    
+}
+#banner p{
+    font-size: 25px;
+    line-height: 1.14286;
+    font-weight: 400;
+    letter-spacing: .004em;
+    color: #000000;
+    margin-bottom: 15px;
+
+}
+#banner .btnContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#banner button{
+    font-size: 17px;
+    line-height: 1.1764805882;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+#banner #btn1{
+    background-color: #0071E3;
+    color: #ffffff;
+    border: none;
+   
+}
+#banner #btn2{
+    background-color: transparent;
+    color: #0071E3;
+    border: 1px solid #0071E3;
+}
+#banner #btn2:hover{
+    background-color: #0071E3;
+    color: #ffffff;
+    border: none;
+}
